@@ -138,7 +138,7 @@ padding: 30px 0px;
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ), url("https://github.com/comercelectronic/comercelectronic.github.io/blob/e75f975512c55e45f0d5e7585524e82cc74fc99e/Teoria.jpg");
+    ), url("https://raw.githubusercontent.com/comercelectronic/comercelectronic.github.io/blob/e75f975512c55e45f0d5e7585524e82cc74fc99e/Teoria.jpg");
     border: solid 10px violet;
     color:white;
 }
@@ -152,7 +152,7 @@ padding: 30px 0px;
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)u
-    ), url("https://github.com/comercelectronic/comercelectronic.github.io/blob/e75f975512c55e45f0d5e7585524e82cc74fc99e/Projectes.jpg");
+    ), url("https://raw.githubusercontent.com/comercelectronic/comercelectronic.github.io/blob/e75f975512c55e45f0d5e7585524e82cc74fc99e/Projectes.jpg");
     border: solid 10px violet;
     color:white;
 }
@@ -170,7 +170,6 @@ padding: 30px 0px;
     background-repeat: no-repeat;
     border: solid 10px violet;
     color:white;
-    
 }
 
 #final{
