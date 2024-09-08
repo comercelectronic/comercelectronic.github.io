@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Fondo negro */
+    margin: 0;
+    padding: 20px;
+    color: #ffffff; /* Color blanco para el texto */
+}
+
+.container {
+    width: 100%;
+    max-width: 800px; /* Ancho máximo para lectura cómoda */
+    margin: 0 auto;
+}
+
+h1 {
+    color: #b388ff; /* Color lila para el título principal */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.temario {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Espacio entre los temas */
+}
+
+.tema {
+    background-color: #1e1e1e; /* Fondo negro más claro para las entradas */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra más oscura */
+}
+
+.tema h2 {
+    font-size: 28px;
+    color: #b388ff; /* Color lila para los títulos de los temas */
+    margin-bottom: 20px;
+}
+
+.tema p {
+    color: #e0e0e0; /* Color gris claro para el texto */
+    font-size: 18px;
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    .tema h2 {
+        font-size: 24px;
+    }
+    
+    .tema p {
+        font-size: 16px;
+    }
+}

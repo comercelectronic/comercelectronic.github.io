@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.1 Estructura d'una pàgina web corporativa. El llenguatge HTML</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="marquetingdigital.html">Sobre aquest curs</a>
+                <a href="RA1.html">RA1</a>
+                <a href="RA2.html">RA2</a>
+                <a href="RA3.html">RA3</a>
+                <a href="RA4.html">RA4</a>
+                <a href="RA5.html">RA5</a>
+            </nav>
+        </div>
+    </header>
+    <section id="temes">
+        <div class="container">
+            <div class="tema">
+                <h1>Estructura d'una pàgina web corporativa. El llenguatge HTML</h1>
+                <h2>1. Estructura bàsica d'una pàgina HTML</h2>
+                <p>Una pàgina HTML segueix una estructura bàsica que inclou diversos components importants per garantir la seva correcta visualització i funcionalitat. A continuació, es descriuen aquests components:</p>
+                
+                <h3>1.1 Capçalera (&lt;header&gt;)</h3>
+                <p>La capçalera d'una pàgina web generalment conté elements com el logotip, el menú de navegació, i altres components importants com el cercador. Es situa a la part superior de la pàgina.</p>
+                <pre><code>&lt;header&gt;
+    &lt;div class="logo"&gt;Nom de la Companyia&lt;/div&gt;
+    &lt;nav&gt;
+        &lt;a href="#home"&gt;Inici&lt;/a&gt;
+        &lt;a href="#about"&gt;Sobre nosaltres&lt;/a&gt;
+        &lt;a href="#contact"&gt;Contacte&lt;/a&gt;
+    &lt;/nav&gt;
+&lt;/header&gt;</code></pre>
+                
+                <h3>1.2 Cos (&lt;body&gt;)</h3>
+                <p>El cos de la pàgina conté tot el contingut visible, com textos, imatges, vídeos i altres elements. A dins del &lt;body&gt;, s’organitza el contingut en seccions, articles, i altres elements estructurals.</p>
+                <pre><code>&lt;body&gt;
+    &lt;main&gt;
+        &lt;section id="home"&gt;
+            &lt;h1&gt;Benvingut a la nostra pàgina&lt;/h1&gt;
+            &lt;p&gt;Aquesta és la pàgina principal del nostre lloc web.&lt;/p&gt;
+        &lt;/section&gt;
+        &lt;section id="about"&gt;
+            &lt;h2&gt;Sobre nosaltres&lt;/h2&gt;
+            &lt;p&gt;Informació sobre la nostra empresa.&lt;/p&gt;
+        &lt;/section&gt;
+    &lt;/main&gt;
+&lt;/body&gt;</code></pre>
+                
+                <h3>1.3 Peu de pàgina (&lt;footer&gt;)</h3>
+                <p>El peu de pàgina sol contenir informació addicional com drets d'autor, enllaços a pàgines legals, i dades de contacte.</p>
+                <pre><code>&lt;footer&gt;
+    &lt;p&gt;&copy; 2024 Nom de la Companyia. Tots els drets reservats.&lt;/p&gt;
+    &lt;p&gt;&lt;a href="#privacy"&gt;Política de Privacitat&lt;/a&gt; | &lt;a href="#terms"&gt;Termes d'ús&lt;/a&gt;&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+
+                <h2>2. Etapes del desenvolupament web</h2>
+                <p>El desenvolupament d'una pàgina web implica diverses etapes, cada una amb el seu propòsit i importància:</p>
+                <ul>
+                    <li><strong>Planificació:</strong> Definir els objectius de la pàgina, el públic objectiu, i el contingut necessari.</li>
+                    <li><strong>Disseny:</strong> Crear maquetes visuals i dissenyar la interfície d'usuari.</li>
+                    <li><strong>Desenvolupament:</strong> Codificar la pàgina utilitzant HTML, CSS, i JavaScript.</li>
+                    <li><strong>Proves:</strong> Verificar la funcionalitat i la compatibilitat en diversos navegadors i dispositius.</li>
+                    <li><strong>Implementació:</strong> Llançar la pàgina web al servidor i fer-la accessible al públic.</li>
+                    <li><strong>Servei i manteniment:</strong> Actualitzar i mantenir el lloc web, corregir errors, i millorar la seguretat.</li>
+                </ul>
+                
+                <h2>3. Exemple de codi HTML complet</h2>
+                <p>A continuació, es presenta un exemple de codi HTML complet que mostra la combinació de tots els elements descrits anteriorment:</p>
+                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="ca"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Exemple de pàgina web&lt;/title&gt;
+    &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;div class="logo"&gt;Nom de la Companyia&lt;/div&gt;
+        &lt;nav&gt;
+            &lt;a href="#home"&gt;Inici&lt;/a&gt;
+            &lt;a href="#about"&gt;Sobre nosaltres&lt;/a&gt;
+            &lt;a href="#contact"&gt;Contacte&lt;/a&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+    &lt;main&gt;
+        &lt;section id="home"&gt;
+            &lt;h1&gt;Benvingut a la nostra pàgina&lt;/h1&gt;
+            &lt;p&gt;Aquesta és la pàgina principal del nostre lloc web.&lt;/p&gt;
+        &lt;/section&gt;
+        &lt;section id="about"&gt;
+            &lt;h2&gt;Sobre nosaltres&lt;/h2&gt;
+            &lt;p&gt;Informació sobre la nostra empresa.&lt;/p&gt;
+        &lt;/section&gt;
+    &lt;/main&gt;
+    &lt;footer&gt;
+        &lt;p&gt;&copy; 2024 Nom de la Companyia. Tots els drets reservats.&lt;/p&gt;
+        &lt;p&gt;&lt;a href="#privacy"&gt;Política de Privacitat&lt;/a&gt; | &lt;a href="#terms"&gt;Termes d'ús&lt;/a&gt;&lt;/p&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; David Martínez Cabeza</p> 
+        </div>
+    </footer>
+</body>
+</html>

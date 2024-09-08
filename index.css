@@ -1,0 +1,252 @@
+¨{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background: whitesmoke;
+    font-family: "Segoe UI","Gill Sans", sans-serif;
+   margin: 0;
+}
+h1{ font-size:3.5em;}
+h2{ font-size:2.7em;
+color:white;}
+h3{    font-size: 2em; /* Ja establert */
+color: violet; /* Potser vols que coincideixi amb altres elements del teu disseny */
+margin-bottom: 20px;
+margin-top: 40px; /* Afegim més espai superior per separar-los */
+text-align: center; /* Ajust per alinear els títols a l'esquerra */}}
+p{font-size: 20px;}
+ol{font-size: 20px;font-style:bold;list-style:none;}
+button{
+    font-size:1.5em;
+    font-weight: bold;
+padding: 10px 20px;
+border-radius: 10px;
+border: 2px solid rgba(0,0,0,0.5);
+box-shadow: 2px 2px 10px black;
+color: white;
+background-color: violet;}
+a{color: white;}
+img{  border-radius: 10px;
+    border: 5px solid violet;
+margin: 0 0 10px 10px;  
+
+}
+
+button:hover{
+    background-color: rgb(236, 34, 179);
+}
+.container{
+      display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente línea si no hay espacio */
+    gap: 20px; /* Añade un espacio entre las noticias */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+    justify-content: flex-start; /* Alínea los divs a la izquierda */
+
+}
+.container h3 {
+    width: 100%;
+    display: block; /* Asegura que no hi hagi problemes de flexbox o altres que impedeixin la correcta visualització */
+}
+
+
+
+header{
+    background-color: rgb(245,245,245);}
+header .logo{
+    margin:0;
+    padding: 5px 3px ;
+font-weight: bold;
+color: black;
+font-size: 20px;
+}
+header.container {
+    display:flex;
+    flex-direction:column;
+align-item: center;
+padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+header a:hover{
+    color: violet;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ) 
+    ,url("multimedia/hero.jpg.jpg");
+    border: solid 5px black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#hero h1{
+    color: white;
+    font-size: 100px;
+
+}
+#hero button{
+    font-size: 75px;
+
+}
+
+#sobreaquestcurs .container{
+    text-align: justify;
+
+}
+#RA {
+    background-color: rgb(30,30,30);
+    color:grey;
+    text-align: center;
+}
+#RA .container{
+padding: 30px 0px;
+}
+#RA .h2{
+    margin-top: 0;
+    font-size: 3.2em;
+    font-family: 'Times New Roman';
+    color:white;
+
+}
+
+
+#RA .carta1 {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 20px ;
+    margin:50px;
+    border-radius: 15px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("Multimedia/Teoria.jpg");
+    border: solid 10px violet;
+    color:white;
+}
+#RA .carta2 {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 20px;
+    margin:50px;
+    border-radius: 15px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("Multimedia/Projectes.jpg");
+    border: solid 10px violet;
+    color:white;
+}
+#RA .carta3 {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 20px;
+    margin:50px;
+    border-radius: 15px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) ,url("Multimedia/mantenimientoweb.png");
+    background-repeat: no-repeat;
+    border: solid 10px violet;
+    color:white;
+    
+}
+
+#final{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
+#final h2{
+    font-size:3em;
+}
+#final button{
+    font-size: 4em;
+
+}
+#footer {
+    background-color: rgb(230,230,230);
+    height: 10px;
+    border: solid 5px violet;
+
+
+}
+footer .p{
+    margin: 0;
+    padding: 8px;
+    color: white;
+
+}
+footer .container{
+ height:10px;
+    justify-content:center;
+
+}
+
+.tema {
+    flex: 1 1 200px; /* Amplada mínima de 200px */
+    margin: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px grey; 
+    width: 200px;
+    height: auto;
+    flex: 1 1 300px; /* Los divs tendrán un ancho mínimo de 300px y se expandirán según el espacio disponible */
+    border: 1px solid #ccc; /* Solo para visualizar los bordes de cada noticia */
+margin-top:20px;
+margin-bottom: 40px; /* Espai per sota del quadre */
+}
+   
+
+
+.tema h1 {
+   font-size: 32px;
+   color:blue;
+   margin-bottom: 10px; 
+}
+.tema h2 {
+    font-size: 28px;
+    color: blueviolet; /* Color lila para los títulos de los temas */
+    margin-bottom: 20px;
+}
+
+
+.tema p {
+    color: black; /* Color gris claro para el texto */
+    font-size: 18px;
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+    margin-bottom: 20px;}
+
+. tema ul{
+    color:black;
+    font-size: 18px;
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+    margin-bottom: 20px;}
+
